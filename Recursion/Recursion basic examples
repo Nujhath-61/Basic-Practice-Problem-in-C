@@ -1,0 +1,17 @@
+#include<stdio.h>
+int printHelloWorld(int n)
+{
+   //Base case.Function stops here.
+  if(n==0)
+    {
+    return;
+    }
+   printf("Hello World!\n");
+  printHelloWorld(n-1);
+
+  }
+
+int main ()
+{
+  printHelloWorld(7);
+  return 0;
