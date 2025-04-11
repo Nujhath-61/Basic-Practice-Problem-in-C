@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main() {
+    int x = 10;
+    //Syntax
+    int *ptr = &x;  // Pointer stores the address of x
+    printf("Value of x: %d\n", x);//Actual value of x
+    printf("Address of x: %p\n", &x);
+    printf("Pointer ptr stores address: %p\n", ptr);
+    printf("Value at address stored in ptr: %d\n", *ptr); ////access the actual value using pointer known as dereferencing
+}
